@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <title>FACEBOOK</title>
+    <style>
+       body
+       {
+          margin: 0px;
+          padding: 0px;
+          background:#191A1D;
+       }
+       .top_text_style
+       {
+          font-size: 2.5rem;
+          font-family: Helvetica;
+          color: #fff;
+       }
+       .top_text_icon_part
+       {
+          display: flex;
+       }
+       .top_icon
+       {
+          margin-left: auto;
+          margin-top: 10px;
+          
+       }
+       #search
+       {
+          font-size: 1.49rem;
+          border: 1px solid #727379;
+          background:#727379;
+          color:#fff;
+          border-radius: 10px;
+          margin-right: 8px;
+         
+          padding: 6px;
+        
+       }
+       #massage
+       {
+          font-size: 1.4rem;
+          border: 1px solid #727379;
+          background:#727379;
+          color:#fff;
+          border-radius: 8px;
+         margin-right:5px;
+          padding: 6px;
+       }
+       .top_ano_icons
+       {
+          display: flex;
+          border-bottom:1.5px solid #767789;
+          border-top: none;
+          margin-top: 15px;
+          border-radius: 0px 0px 8px 8px;
+          
+          
+         
+       }
+       #home
+       {
+         
+           margin-left: 10px;
+           color: #3A46D0;
+           font-size: 1.8rem;
+           border-bottom:2px solid #3A46D0;
+           border-radius:0px 0px 3px 3px;
+       }
+       #manue
+       {
+          margin-left:auto;
+          color:#898A94;
+          font-size: 1.8rem;
+          margin-right: 10px;
+         
+          
+       }
+       #bell
+       {
+           margin-left:auto;
+          color:#898A94;
+          font-size: 1.8rem;
+          margin-right: 10px;
+          
+       }
+       #games
+       {
+           margin-left:auto;
+           color:#898A94;
+           font-size: 1.8rem;
+           margin-right: 10px;
+       }
+       #shop
+       {
+           margin-left:auto;
+           color:#898A94;
+           font-size: 1.8rem;
+           margin-right: 10px;
+       }
+       #video
+       {
+           margin-left:auto;
+           color:#898A94;
+           font-size: 1.8rem;
+           margin-right: 10px;
+       }
+       .top_write
+       {
+          display: flex;
+          border-bottom: 1.5px solid #767789;
+          border-radius: 15px;
+          padding-bottom: 15px;
+          
+       }
+       #mggg
+       {
+          height: 70px;
+          width: 70px;
+          border-radius:50%;
+          margin-top: 15px;
+          margin-left:0px;
+           border:1px solid;
+       }
+       .write_something
+       {
+          margin-top: 20px;
+          margin-left:15px;
+          border-radius: 35px;
+          border: 1.5px solid #696B7E;
+          background: transparent;
+          padding-top: 0px;
+          padding-bottom:0px;
+          width: 100%;
+          height: 50px;
+          margin-right: 10px;
+          margin-bottom: 5px;
+         padding-left: 15px;
+         padding-right: 15px;
+         color:#DCDDE5;
+       }
+       .write_something::-webkit-input-placeholder
+       {
+          color:#fff;
+          opacity: 80%;
+          padding: 15px;
+          font-size: 15px;
+          font-family: Helvetica;
+  letter-spacing:auto;
+          
+       }
+       .top_live_p_r
+       {
+          display:flex;
+          margin-top: 10px;
+          border-bottom: 15px solid #30313F;
+          padding-bottom: 10px;
+          
+        
+       }
+       .all_live
+       {
+          
+          margin-right: 0px;
+          margin-left:10px;
+          font-size: 15px;
+          display: flex;
+          margin-top: 3px;
+         
+         
+        
+       }
+       #live
+       {
+         font-size: 28px;
+         margin-left: 0px;
+          color:#F45050;
+          margin-top: 0px;
+          
+       }
+       #live_text
+       {
+            color:#fff;
+          font-size: 16px;
+          margin-left:8px;
+          margin-top: 6px;
+
+       }
+       .all_photo
+       {
+          margin-left: auto;
+          padding-left: 70px;
+          margin-right:15px;
+          font-size: 20px;
+          
+       }
+       #photo_text
+       {
+          color:#fff;
+          font-size: 15px;
+          margin-left: 10px;
+         
+       }
+       #photo
+       {
+          
+          font-size: 25px;
+          color:#9AF9AC;
+       }
+       .all_room
+       {
+          margin-left: auto;
+          margin-right:15px;
+          font-size: 15px;
+          padding-left: 45px;
+          padding-right: 15px;
+          
+          
+          height: 30px;
+       }
+       #room_text
+       {
+          color:#fff;
+          margin-left:10px;
+         
+       }
+       #room
+       {
+          font-size: 25px;
+          color: #9C46EE;
+          
+       }
+       .box_part
+       {
+          display:flex;
+       }
+    .story_box
+    {
+      margin-top: 10px;
+      margin-right:auto;
+      margin-left: 10px;
+       border: 1px solid none;
+       height: 200px;
+       width: 120px;
+       border-radius: 10px;
+       background:linear-gradient(135deg,#30CB8B,#58CCE2,#00CCF3);
+       
+    }
+    .story_box2
+    {
+       margin-top: 10px;
+      margin-right:auto;
+       border: 1px solid none;
+       height: 200px;
+       width: 120px;
+       border-radius: 10px;
+       background:linear-gradient(135deg,#FF4B5C,#C84A2B,#DF9F50);
+   
+    }
+    .story_box3
+    {
+       margin-top: 10px;
+      margin-right:auto;
+       border: 1px solid none;
+       height: 200px;
+       width: 120px;
+       border-radius: 10px;
+       background:linear-gradient(135deg,#EF712C,#A16BD9,#D735AC);
+   
+    }
+    .story_box4
+    {
+         margin-top: 10px;
+        
+         margin-right:auto;
+         border: 1px solid none;
+         height: 200px;
+         width: 120px;
+         border-radius: 10px;
+         background:linear-gradient(135deg,#D5E33C,#E3553C,#20F3C1);
+    }
+    .music #mu
+    {
+        font-size:15px;
+        border: 1px solid #727379;
+        background:#727379;
+        color:#fff;
+        border-radius: 50px;
+        margin:0px 0px -70px 40px;
+      
+    }
+    @media(prefers-color-scheme:dark)
+    {
+       .top_text_style
+       {
+          color:blue;
+          
+       }
+    }
+  
+       
+    </style>
+</head>
+
+<body>
+<div class="top_text_icon_part">
+    <div class="top_text">
+       <b class="top_text_style">
+          facebook
+       </b>
+    </div>
+    <div class="top_icon">
+       <i class="bi bi-search" id="search"></i>
+       <i class="bi bi-messenger"id="massage"></i>
+    </div>
+</div>
+
+   <div class="top_ano_icons">
+      <i class="bi bi-house-door-fill" id="home"></i>
+      <i class="bi bi-play-btn" id="video"></i>
+      <i class="bi bi-bag" id="shop"></i>
+      <i class="bi bi-controller" id="games"></i>
+      <i class="bi bi-bell" id="bell"></i>
+      <i class="bi bi-collection" id="manue"></i>
+      
+      
+   </div>
+   <div class="top_write">
+      <img src="df677e4e223c25147a305947fbdd5efe.jpg" id="mggg" alt="because the picture is not uploaded on server there for you can't see it">
+      <input type="text" class="write_something" placeholder="  write something here..">
+   </div>
+   <div class="top_live_p_r">
+     <div class="all_live"> 
+     <i class="bi bi-camera-video" id="live"></i><b id="live_text">Live</b>
+     </div>
+    <div class="all_photo">  <i class="bi bi-images" id="photo"></i><b id="photo_text">Photo</b>
+    </div>
+   <div class="all_room">
+      <i class="bi bi-camera-reels"id="room"></i>
+      <b id="room_text">Room</b>
+   </div>
+   </div>
+   <div class="box_part">
+      <div class="story_box">
+      
+      </div>
+   </div>
+</body>
+
+</html>

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>HOME UI</title>
+    <style>
+       body
+       {
+       margin: 0px;
+       padding: 0px;
+       background:#e2e2e2;
+       }
+       .total_top
+       {
+          background:#4F89C1C2;
+          border: 1px solid #000;
+          width: auto;
+          height: auto;
+          box-shadow: 2px 2px 15px #3D3E48;
+          border-radius: 0px 0px 20px 20px;
+          
+       }
+      
+       .top_text_style
+       {
+          font-family: cursive;
+          font-size: 2.5rem;
+          margin:0px;
+          text-align: center;
+          color:#fff;
+       }
+       #camera
+       {
+          float:left;
+          margin-top: 10px;
+          font-size: 2rem;
+          color: #fff;
+       }
+       #massage
+       {
+          float: right;
+          margin-top: 10px;
+          font-size: 2rem;
+          color: :#fff;
+          
+       }
+       #plus
+       {
+          float: right;
+          font-size: 2rem;
+          margin: 8px 20px 10px 10px;
+          border: 3px solid #fff;
+          border-radius: 10px;
+          height: auto;
+          width: auto;
+          padding:2px;
+          color: #fff;
+       }
+       .story_part
+       {
+          display: flex;
+          margin-top: 10px;
+          height: auto;
+          width: auto;
+        
+       }
+       .img_1
+       {
+          height: 70px;
+          width: 70px;
+          border-radius: 50%;
+          border:4px solid;
+          color:linear-gradient (90deg,red,yellow);
+          margin-left: 10px;
+          
+       }
+       .img_2
+       {
+          height: 70px;
+          width: 70px;
+          border-radius:50%;
+          margin-left: auto;
+           border:4px solid;
+       }
+       .img_3
+       {
+          height: 70px;
+          width: 70px;
+          border-radius: 50%;
+          margin-left: auto;
+          border:4px solid;
+          
+       }
+       .img_4
+       {
+          height: 70px;
+          width: 70px;
+          border-radius: 50%;
+          margin-left:auto;
+          border:4px solid;
+          margin-right: 10px;
+          
+       }
+       .prof
+       {
+          border: 1px solid #000;
+          background: #2C2E4E;
+          height:20px;
+          width: 50px;
+          border-radius: 0px 20px 20px 0px;
+          margin-left: 10px;
+          color: #fff;
+       }
+       .a_p
+       {
+          height:410px;
+          width:auto;
+          border-radius: 23px;
+          border: 2px solid #000;
+          text-align: center;
+          animation-name: jj;
+          animation-duration: 0.5s;
+          animation-direction:alternate;
+          animation-iteration-count:infinite;
+       }
+       @keyframes jj
+       {
+          0%
+          {
+             background:#2C2E4E;
+             border-radius: 0px;
+             width: 10px;
+          }
+          50%
+          {
+             background:#EC0000;
+             border-radius: 13px;
+             width: 20px;
+          }
+          75%
+          {
+             background:#00EC08;
+             border-radius: 20px;
+             width: 30px;
+          }
+          100%
+          {
+             background:#0014EC;
+             border-radius: 23px;
+             width: auto;
+          }
+       }
+       
+       #he
+       {
+          font-size: 2rem;
+          color:#FF192F;
+          margin-top: 10px;
+          margin-left: 10px;
+          animation-name: sj;
+          animation-duration: 1s;
+          animation-direction:alternate;
+          animation-iteration-count:infinite;
+          
+          
+       }
+       @keyframes sj
+       {
+          0%{
+             font-size: 0rem;
+          }
+          25%
+          {
+             font-size: 1rem;
+          }
+          50%
+          {
+             font-size: 1.5rem;
+             
+          }
+          75%
+          {
+             font-size: 1.8rem;
+          }
+          100%
+          {
+            font-size:  2rem;
+          }
+       }
+       .like_text
+       {
+          font-size: 25px;
+       }
+       .manue
+       {
+          display: flex;
+          border: 2px solid #564D4E;
+          box-shadow: 2px 2px 3px #B19FA0;
+          height: 40px;
+          width: auto;
+          border-radius: 8rem;
+          margin-left: 50px;
+          margin-right: 50px;
+          margin-top: 100%;
+       }
+       #home, #search,#beer,#lock
+       {
+          font-size: 2rem;
+          margin-top:8px;
+       }
+       #home{
+          margin-right: auto;
+          
+       }
+       #search{
+          margin-right:10px;
+         
+       }
+       #beer{
+          margin-left:auto;
+       }
+       #lock
+       {
+          margin-left:auto;
+          margin-right: 10px;
+       }
+    </style>
+</head>
+<body>
+  <div class="total_top">
+<div class="top_part">
+      <h1 class="top_text_style">
+         <i class="fa fa-camera" id="camera"></i>
+         <b> Instagram </b>
+         <i class="fa fa-paper-plane" id="massage" style="color: #fff;"></i><i class="fa fa-plus" id="plus"></i>
+      </h1><br>
+  </div>
+      <div class="story_part">
+        <img src="df677e4e223c25147a305947fbdd5efe.jpg" class="img_1"><br>
+        
+        <img src="Screenshot_20210913-012448_WhatsApp.jpg" class="img_2">
+        
+        <img src="0c1fc62c4ce679df637444790a725771.jpg" class="img_3">
+        <img src="bced415261251e8b6c776415005e3468.jpg" class="img_4" loading="lazy">
+        
+     
+         
+      </div>
+ </div> 
+
+<div class="post">
+   <h3 class="prof">
+      Aniket
+   </h3>
+   <div class="a_p">
+      any post
+      
+   </div>
+   <i class="fa fa-heart" id="he"><b class="like_text">11k</b></i>
+   
+</div>
+
+<div class="manue">
+  <i class="fa fa-home" id="home"></i>
+  <i class="fa fa-search" id="search"></i>
+  <i class="fa fa-beer" id="beer"></i>
+  <i class="fa fa-lock" id="lock"></i>
+ 
+</div>
+ 
+</body>
+
+</html>
